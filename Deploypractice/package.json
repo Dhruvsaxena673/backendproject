@@ -1,0 +1,20 @@
+{
+  "name": "deploypractice",
+  "version": "1.0.0",
+  "description": "a basic app to deploy",
+  "keywords": [
+    "node",
+    "dhruv"
+  ],
+  "license": "ISC",
+  "author": "dhruv saxena",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.5",
+    "express": "^5.2.1"
+  }
+}
