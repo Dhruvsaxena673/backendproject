@@ -1,0 +1,28 @@
+{
+  "name": "backend-practice-series",
+  "version": "1.0.0",
+  "description": "a backend project for practice",
+  "type": "module",
+  "keywords": [
+    "javascript",
+    "backend",
+    "mongodb"
+  ],
+  "homepage": "https://github.com/Dhruvsaxena673/backendproject#readme",
+  "bugs": {
+    "url": "https://github.com/Dhruvsaxena673/backendproject/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dhruvsaxena673/backendproject.git"
+  },
+  "license": "ISC",
+  "author": "Dhruvsaxena",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
