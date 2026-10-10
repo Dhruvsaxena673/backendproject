@@ -1,0 +1,40 @@
+$kind: http-request
+description: ""
+url: "{{server}}/users/register"
+method: POST
+body:
+  type: formdata
+  content:
+    - type: text
+      key: fullname
+      value: Dhruv saxena
+      description: ""
+      disabled: false
+    - type: text
+      key: email
+      value: dhruv72@gmail.com
+      description: ""
+      disabled: false
+    - type: text
+      key: password
+      value: Dhruv72
+      description: ""
+      disabled: false
+    - type: text
+      key: username
+      value: killua23
+      description: ""
+      disabled: false
+    - type: file
+      key: avatar
+      src:
+        - /C:/Users/dhruv/OneDrive/Pictures/Camera Roll/WIN_20260609_00_43_57_Pro.jpg
+      description: ""
+      disabled: false
+    - type: file
+      key: coverImage
+      src:
+        - /C:/Users/dhruv/OneDrive/Pictures/wp2570427-wallpaper-bleach.jpg
+      description: ""
+      disabled: false
+order: 1000
